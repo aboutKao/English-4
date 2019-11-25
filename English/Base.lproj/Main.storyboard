@@ -15,40 +15,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUk-Qr-DDh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUk-Qr-DDh">
                                 <rect key="frame" x="20" y="158" width="374" height="81"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="81" id="wHE-pI-2h7"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="51"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SW8-Go-4xc">
-                                <rect key="frame" x="20" y="359" width="374" height="83"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="zwv-aQ-mdi"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SW8-Go-4xc">
+                                <rect key="frame" x="20" y="360" width="374" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OnP-pB-5nU">
-                                <rect key="frame" x="93" y="547" width="112" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="RH4-tE-Wa3"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OnP-pB-5nU">
+                                <rect key="frame" x="93" y="547" width="49" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="chevron.left.2" catalog="system"/>
                                 <connections>
                                     <action selector="btPrev:" destination="reZ-HD-8dh" eventType="touchUpInside" id="dZh-Qf-dQN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00Q-2A-cWi">
-                                <rect key="frame" x="94" y="309" width="110" height="38"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="38" id="I4j-Ca-eAF"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="47" id="XK8-VN-cxm"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00Q-2A-cWi">
+                                <rect key="frame" x="94" y="310" width="47" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="speaker.3.fill" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="35"/>
                                 </state>
@@ -56,11 +47,9 @@
                                     <action selector="speak:" destination="reZ-HD-8dh" eventType="touchUpInside" id="eM5-jw-9O5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hm-4H-hV4">
-                                <rect key="frame" x="264" y="305" width="47" height="46"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="47" placeholder="YES" id="MaN-Sd-ONh"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hm-4H-hV4">
+                                <rect key="frame" x="264" y="305" width="47" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="hand.thumbsup" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="35"/>
                                 </state>
@@ -69,42 +58,20 @@
                                     <action selector="btSave:" destination="reZ-HD-8dh" eventType="touchUpInside" id="6rb-3e-TqJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gca-yQ-LJI">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gca-yQ-LJI">
                                 <rect key="frame" x="263" y="547" width="49" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="chevron.right.2" catalog="system"/>
                                 <connections>
                                     <action selector="btNext:" destination="reZ-HD-8dh" eventType="touchUpInside" id="Jh5-C3-Chr"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ホワイトボードのアイコン　19.png" translatesAutoresizingMaskIntoConstraints="NO" id="BqO-To-VTg">
-                                <rect key="frame" x="20" y="85" width="374" height="726"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ホワイトボードのアイコン　19.png" translatesAutoresizingMaskIntoConstraints="NO" id="BqO-To-VTg">
+                                <rect key="frame" x="20" y="86" width="374" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="OnP-pB-5nU" firstAttribute="baseline" secondItem="Gca-yQ-LJI" secondAttribute="baseline" id="4g4-lk-nX9"/>
-                            <constraint firstItem="BqO-To-VTg" firstAttribute="leading" secondItem="HU3-UG-zY9" secondAttribute="leadingMargin" id="6pv-fi-RFH"/>
-                            <constraint firstItem="SW8-Go-4xc" firstAttribute="top" secondItem="1hm-4H-hV4" secondAttribute="bottom" constant="8" id="7tX-Mq-aiV"/>
-                            <constraint firstItem="00Q-2A-cWi" firstAttribute="leading" secondItem="UJM-iu-31G" secondAttribute="leading" constant="94" id="D5W-Ht-s2S"/>
-                            <constraint firstItem="SW8-Go-4xc" firstAttribute="top" secondItem="00Q-2A-cWi" secondAttribute="bottom" constant="12" id="MLA-0o-IVk"/>
-                            <constraint firstItem="jUk-Qr-DDh" firstAttribute="leading" secondItem="SW8-Go-4xc" secondAttribute="leading" id="NX2-CS-wrX"/>
-                            <constraint firstItem="UJM-iu-31G" firstAttribute="bottom" secondItem="BqO-To-VTg" secondAttribute="bottom" constant="2" id="QwU-HF-3Kd"/>
-                            <constraint firstItem="BqO-To-VTg" firstAttribute="leading" secondItem="SW8-Go-4xc" secondAttribute="leading" id="U2c-7P-s0N"/>
-                            <constraint firstItem="1hm-4H-hV4" firstAttribute="top" secondItem="jUk-Qr-DDh" secondAttribute="bottom" constant="66" id="Uaa-VF-CmF"/>
-                            <constraint firstItem="UJM-iu-31G" firstAttribute="trailing" secondItem="1hm-4H-hV4" secondAttribute="trailing" constant="103" id="aSa-SO-1Xm"/>
-                            <constraint firstItem="jUk-Qr-DDh" firstAttribute="trailing" secondItem="SW8-Go-4xc" secondAttribute="trailing" id="bZg-iG-Slz"/>
-                            <constraint firstItem="00Q-2A-cWi" firstAttribute="centerX" secondItem="OnP-pB-5nU" secondAttribute="centerX" id="ckg-c2-DpY"/>
-                            <constraint firstItem="BqO-To-VTg" firstAttribute="trailing" secondItem="HU3-UG-zY9" secondAttribute="trailingMargin" id="e3m-fy-l32"/>
-                            <constraint firstItem="BqO-To-VTg" firstAttribute="trailing" secondItem="jUk-Qr-DDh" secondAttribute="trailing" id="hBj-Dz-z7V"/>
-                            <constraint firstItem="UJM-iu-31G" firstAttribute="trailing" secondItem="Gca-yQ-LJI" secondAttribute="trailing" constant="102" id="igv-41-OQN"/>
-                            <constraint firstItem="OnP-pB-5nU" firstAttribute="top" secondItem="Gca-yQ-LJI" secondAttribute="top" id="is6-9L-wKy"/>
-                            <constraint firstItem="BqO-To-VTg" firstAttribute="centerY" secondItem="HU3-UG-zY9" secondAttribute="centerY" id="iu5-jT-7LT"/>
-                            <constraint firstItem="1hm-4H-hV4" firstAttribute="baseline" secondItem="00Q-2A-cWi" secondAttribute="firstBaseline" id="kAE-mx-cZf"/>
-                            <constraint firstItem="jUk-Qr-DDh" firstAttribute="top" secondItem="UJM-iu-31G" secondAttribute="top" constant="70" id="lSA-UX-CM1"/>
-                            <constraint firstItem="UJM-iu-31G" firstAttribute="bottom" secondItem="OnP-pB-5nU" secondAttribute="bottom" constant="230" id="oV2-Yb-tmK"/>
-                            <constraint firstItem="OnP-pB-5nU" firstAttribute="leading" secondItem="UJM-iu-31G" secondAttribute="leading" constant="93" id="tyN-U4-Y5l"/>
-                            <constraint firstItem="1hm-4H-hV4" firstAttribute="centerX" secondItem="Gca-yQ-LJI" secondAttribute="centerX" id="yY6-4Y-5xd"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="UJM-iu-31G"/>
                     </view>
                     <navigationItem key="navigationItem" title="英文單字" id="X9e-im-21y">
@@ -133,7 +100,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Nm1-sU-ItM">
-                                <rect key="frame" x="0.0" y="88" width="414" height="690"/>
+                                <rect key="frame" x="0.0" y="88" width="569" height="690"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="nD3-Fj-Xts">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="89.5"/>
@@ -172,10 +139,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="wZm-s6-gTX">
-                                        <rect key="frame" x="0.0" y="100" width="414" height="89.5"/>
+                                        <rect key="frame" x="0.0" y="93.5" width="569" height="128"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXR-CR-JMW">
-                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="89.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="FXR-CR-JMW" secondAttribute="height" multiplier="1:1" id="Evy-FZ-JWt"/>
                                                 </constraints>
@@ -185,21 +152,21 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jxy-Qg-Whb">
-                                                <rect key="frame" x="108.5" y="0.0" width="89" height="89.5"/>
+                                                <rect key="frame" x="147" y="0.0" width="128" height="128"/>
                                                 <state key="normal" title="F" backgroundImage="線画のフォルダアイコン.png"/>
                                                 <connections>
                                                     <action selector="alphabetTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OPX-yd-dHD"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7j-Aa-aAu">
-                                                <rect key="frame" x="216.5" y="0.0" width="89.5" height="89.5"/>
+                                                <rect key="frame" x="294" y="0.0" width="128" height="128"/>
                                                 <state key="normal" title="G" backgroundImage="線画のフォルダアイコン.png"/>
                                                 <connections>
                                                     <action selector="alphabetTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2y4-yY-Wt8"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvX-El-MbJ">
-                                                <rect key="frame" x="325" y="0.0" width="89" height="89.5"/>
+                                                <rect key="frame" x="441" y="0.0" width="128" height="128"/>
                                                 <state key="normal" title="H" backgroundImage="線画のフォルダアイコン.png"/>
                                                 <connections>
                                                     <action selector="alphabetTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CVW-kF-hrb"/>
@@ -208,10 +175,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="P1d-W7-tVw">
-                                        <rect key="frame" x="0.0" y="200.5" width="414" height="89"/>
+                                        <rect key="frame" x="0.0" y="226" width="414" height="89.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hz2-Dd-SPT">
-                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="89"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="89.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="hz2-Dd-SPT" secondAttribute="height" multiplier="1:1" id="jKC-C0-TcM"/>
                                                 </constraints>
@@ -221,21 +188,21 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpJ-W0-V0S">
-                                                <rect key="frame" x="108.5" y="0.0" width="89" height="89"/>
+                                                <rect key="frame" x="108.5" y="0.0" width="89" height="89.5"/>
                                                 <state key="normal" title="J" backgroundImage="線画のフォルダアイコン.png"/>
                                                 <connections>
                                                     <action selector="alphabetTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xXt-3Z-KxO"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsX-tV-SeM">
-                                                <rect key="frame" x="216.5" y="0.0" width="89.5" height="89"/>
+                                                <rect key="frame" x="216.5" y="0.0" width="89.5" height="89.5"/>
                                                 <state key="normal" title="K" backgroundImage="線画のフォルダアイコン.png"/>
                                                 <connections>
                                                     <action selector="alphabetTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fjW-Gv-9Te"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBg-xu-Fij">
-                                                <rect key="frame" x="325" y="0.0" width="89" height="89"/>
+                                                <rect key="frame" x="325" y="0.0" width="89" height="89.5"/>
                                                 <state key="normal" title="L" backgroundImage="線画のフォルダアイコン.png"/>
                                                 <connections>
                                                     <action selector="alphabetTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DjT-z6-aQn"/>
@@ -244,10 +211,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="JV6-aU-4xV">
-                                        <rect key="frame" x="0.0" y="300.5" width="414" height="89.5"/>
+                                        <rect key="frame" x="0.0" y="320" width="414" height="89"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXC-sa-WId">
-                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="89.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="89"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="OXC-sa-WId" secondAttribute="height" multiplier="1:1" id="sZP-rO-azc"/>
                                                 </constraints>
@@ -257,21 +224,21 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZY-oK-yzF">
-                                                <rect key="frame" x="108.5" y="0.0" width="89" height="89.5"/>
+                                                <rect key="frame" x="108.5" y="0.0" width="89" height="89"/>
                                                 <state key="normal" title="N" backgroundImage="線画のフォルダアイコン.png"/>
                                                 <connections>
                                                     <action selector="alphabetTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UWs-tV-d7c"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UND-bB-Tk2">
-                                                <rect key="frame" x="216.5" y="0.0" width="89.5" height="89.5"/>
+                                                <rect key="frame" x="216.5" y="0.0" width="89.5" height="89"/>
                                                 <state key="normal" title="O" backgroundImage="線画のフォルダアイコン.png"/>
                                                 <connections>
                                                     <action selector="alphabetTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z2z-X5-Byr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTE-5D-ueC">
-                                                <rect key="frame" x="325" y="0.0" width="89" height="89.5"/>
+                                                <rect key="frame" x="325" y="0.0" width="89" height="89"/>
                                                 <state key="normal" title="P" backgroundImage="線画のフォルダアイコン.png"/>
                                                 <connections>
                                                     <action selector="alphabetTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MRW-Ye-FLc"/>
@@ -280,10 +247,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="xXB-UC-i1S">
-                                        <rect key="frame" x="0.0" y="401" width="414" height="89"/>
+                                        <rect key="frame" x="0.0" y="413.5" width="414" height="89.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0n-CA-Iph">
-                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="89"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="89.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="V0n-CA-Iph" secondAttribute="height" multiplier="1:1" id="Zfc-8P-wY0"/>
                                                 </constraints>
@@ -293,21 +260,21 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="In7-TS-T2L">
-                                                <rect key="frame" x="108.5" y="0.0" width="89" height="89"/>
+                                                <rect key="frame" x="108.5" y="0.0" width="89" height="89.5"/>
                                                 <state key="normal" title="R" backgroundImage="線画のフォルダアイコン.png"/>
                                                 <connections>
                                                     <action selector="alphabetTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wVw-4L-6ue"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUt-pl-VDh">
-                                                <rect key="frame" x="216.5" y="0.0" width="89.5" height="89"/>
+                                                <rect key="frame" x="216.5" y="0.0" width="89.5" height="89.5"/>
                                                 <state key="normal" title="S" backgroundImage="線画のフォルダアイコン.png"/>
                                                 <connections>
                                                     <action selector="alphabetTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cGh-ip-411"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eec-p3-QTD">
-                                                <rect key="frame" x="325" y="0.0" width="89" height="89"/>
+                                                <rect key="frame" x="325" y="0.0" width="89" height="89.5"/>
                                                 <state key="normal" title="T" backgroundImage="線画のフォルダアイコン.png"/>
                                                 <connections>
                                                     <action selector="alphabetTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vzx-yi-YSX"/>
@@ -316,7 +283,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="3qF-kp-5My">
-                                        <rect key="frame" x="0.0" y="501" width="414" height="89"/>
+                                        <rect key="frame" x="0.0" y="507.5" width="414" height="89"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHC-0D-lHE">
                                                 <rect key="frame" x="0.0" y="0.0" width="89.5" height="89"/>
@@ -475,41 +442,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4m-WC-Udn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4m-WC-Udn">
                                 <rect key="frame" x="20" y="158" width="374" height="81"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="81" id="Wgr-r6-UZ2"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="51"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYh-kU-SVn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYh-kU-SVn">
                                 <rect key="frame" x="20" y="360" width="374" height="83"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="bjb-OJ-xYT"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ホワイトボードのアイコン　19.png" translatesAutoresizingMaskIntoConstraints="NO" id="KFs-58-aDD">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ホワイトボードのアイコン　19.png" translatesAutoresizingMaskIntoConstraints="NO" id="KFs-58-aDD">
                                 <rect key="frame" x="20" y="89" width="374" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="KFs-58-aDD" firstAttribute="leading" secondItem="D4m-WC-Udn" secondAttribute="leading" id="5hC-As-PHd"/>
-                            <constraint firstItem="D4m-WC-Udn" firstAttribute="top" secondItem="C5C-cX-UqO" secondAttribute="top" constant="70" id="9gQ-Ya-0Rk"/>
-                            <constraint firstItem="KFs-58-aDD" firstAttribute="trailing" secondItem="YYh-kU-SVn" secondAttribute="trailing" id="FJA-dx-4Hh"/>
-                            <constraint firstItem="KFs-58-aDD" firstAttribute="trailing" secondItem="KeU-Pe-pY8" secondAttribute="trailingMargin" id="Soc-Iw-Zgt"/>
-                            <constraint firstItem="C5C-cX-UqO" firstAttribute="bottom" secondItem="YYh-kU-SVn" secondAttribute="bottom" constant="419" id="Vi7-kh-I6u"/>
-                            <constraint firstItem="C5C-cX-UqO" firstAttribute="bottom" secondItem="KFs-58-aDD" secondAttribute="bottom" constant="48" id="XeC-jg-9pf"/>
-                            <constraint firstItem="KFs-58-aDD" firstAttribute="leading" secondItem="KeU-Pe-pY8" secondAttribute="leadingMargin" id="bh9-Tq-Yus"/>
-                            <constraint firstItem="D4m-WC-Udn" firstAttribute="trailing" secondItem="YYh-kU-SVn" secondAttribute="trailing" id="neu-RB-fpQ"/>
-                            <constraint firstItem="KFs-58-aDD" firstAttribute="top" secondItem="C5C-cX-UqO" secondAttribute="top" constant="1" id="qBB-kj-JxK"/>
-                            <constraint firstItem="D4m-WC-Udn" firstAttribute="leading" secondItem="YYh-kU-SVn" secondAttribute="leading" id="t0l-1N-oI1"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="C5C-cX-UqO"/>
                     </view>
                     <navigationItem key="navigationItem" title="中文翻譯" id="M0z-xl-dwW">
